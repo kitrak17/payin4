@@ -14,8 +14,15 @@
     <div id="paypal-button-container"></div>
 
     <!-- Include the PayPal JavaScript SDK -->
-    <script src="https://www.paypal.com/sdk/js?client-id=AfUBN9-SxAS99IgJXyTsT0FhaD6etJocNS0sMTRln1wNcOlTmTduF988XcfY9mj1_hjvdlifjHmOvQiq&currency=AUD"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AfUBN9-SxAS99IgJXyTsT0FhaD6etJocNS0sMTRln1wNcOlTmTduF988XcfY9mj1_hjvdlifjHmOvQiq&currency=AUD&components=buttons,messages"></script>
 
+<div
+  data-pp-message
+  data-pp-placement="product"
+  data-pp-amount="120.00">
+</div>
+    
+    
     <script>
         // Render the PayPal button into #paypal-button-container
         paypal.Buttons({
