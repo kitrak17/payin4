@@ -14,7 +14,7 @@
     <div id="paypal-button-container"></div>
 
     <!-- Include the PayPal JavaScript SDK -->
-    <script src="https://www.paypal.com/sdk/js?client-id=AZCUps1T_rDTc4fFX_5wZvPbEjXPNiDcRmAOlROwptBIMXTy_VsOgFLCMuZmNhqDQshqcpaat0cK8rSn&currency=AUD&components=buttons,messages&enable-funding=paylater"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AQ3RkiNHQ53oodRlTz7z-9ETC9xQNUgOLHjVDII9sgnF19qLXJzOwShAxcFW7OT7pVEF5B9bwjIArOvE&currency=AUD&components=buttons,messages&enable-funding=paylater"></script>
 
 <div
   data-pp-message
